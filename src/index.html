@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+				name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Face Access</title>
+	<link href="output.css" rel="stylesheet">
+</head>
+
+<body class="bg-[url('assets/main-bg.jpeg')]  bg-no-repeat bg-cover">
+<div class="bg-gray-900 bg-opacity-80">
+	<div class="flex items-center justify-around h-screen">
+		<div class="max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+			<img alt="Stream de vídeo do porteiro da rua" class="rounded-t-lg" src="http://192.168.4.50:8080/video.cgi"></img>
+			<div class="p-5">
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Porteiro Rua</h5>
+				<p class="mb-3 font-normal text-xs text-gray-700 dark:text-gray-400">192.168.4.50</p>
+				<button
+					class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					onclick="invokeApi('192.168.4.50')"
+					type="button">
+					Abrir Porta
+					<svg aria-hidden="true" class="rtl:rotate-180 w-3.5 h-3.5 ms-2" fill="none" viewBox="0 0 14 10"
+							 xmlns="http://www.w3.org/2000/svg">
+						<path d="M1 5h12m0 0L9 1m4 4L9 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+									stroke-width="2"/>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<div class="max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+			<img alt="Stream de vídeo do porteiro da Clausura" class="rounded-t-lg"
+					 src="http://192.168.4.52:8080/video.cgi"></img>
+			<div class="p-5">
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Porteiro Clausura</h5>
+				<p class="mb-3 font-normal text-xs text-gray-700 dark:text-gray-400">192.168.4.52</p>
+				<button
+					class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					onclick="invokeApi('192.168.4.52')"
+					type="button">
+					Abrir Porta
+					<svg aria-hidden="true" class="rtl:rotate-180 w-3.5 h-3.5 ms-2" fill="none" viewBox="0 0 14 10"
+							 xmlns="http://www.w3.org/2000/svg">
+						<path d="M1 5h12m0 0L9 1m4 4L9 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+									stroke-width="2"/>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<div class="max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+			<img alt="Stream de vídeo do porteiro da Digisonic" class="rounded-t-lg max-h-[251px] w-[448px]"
+					 src="http://192.168.4.51:8080/video.cgi"></img>
+			<div class="p-5">
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Porteiro Digisonic</h5>
+				<p class="mb-3 font-normal text-xs text-gray-700 dark:text-gray-400">192.168.4.51</p>
+				<button
+					class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					onclick="invokeApi('192.168.4.51')"
+					type="button">
+					Abrir Porta
+					<svg aria-hidden="true" class="rtl:rotate-180 w-3.5 h-3.5 ms-2" fill="none" viewBox="0 0 14 10"
+							 xmlns="http://www.w3.org/2000/svg">
+						<path d="M1 5h12m0 0L9 1m4 4L9 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+									stroke-width="2"/>
+					</svg>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="../node_modules/flowbite/dist/flowbite.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
