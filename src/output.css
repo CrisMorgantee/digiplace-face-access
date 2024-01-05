@@ -1189,6 +1189,10 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .max-h-\[251px\] {
   max-height: 251px;
 }
@@ -1469,6 +1473,10 @@ input:checked + .toggle-bg {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
 }
 
 .bg-no-repeat {

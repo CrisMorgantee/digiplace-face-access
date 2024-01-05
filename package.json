@@ -4,7 +4,7 @@
   "description": "Faces access control to digiplace",
   "main": "index.js",
   "scripts": {
-    "server": "http-server ./src/ --port 8089 --proxy https://digiplace.veloq.com.br --proxy-options.secure false"
+    "server": "http-server ./src/ --port 8089"
   },
   "author": "",
   "license": "ISC",
