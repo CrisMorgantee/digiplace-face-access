@@ -1,0 +1,21 @@
+<svg height="48" width="48" xmlns="http://www.w3.org/2000/svg">
+    <linearGradient gradientUnits="userSpaceOnUse" id="a" x1="9.899" x2="38.183" y1="9.98" y2="38.264">
+        <stop offset="0" stop-color="#33bef0"/>
+        <stop offset="1" stop-color="#0a85d9"/>
+    </linearGradient>
+    <path d="M44.041 24.122c0 11.045-8.955 20-20 20s-20-8.955-20-20 8.955-20 20-20 20 8.955 20 20z"
+          fill="url(#a)"/>
+    <path d="M22 36h4a1 1 0 0 0 1-1V20a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v15a1 1 0 0 0 1 1z" opacity=".05"/>
+    <path
+            d="M22.227 35.5h3.547a.727.727 0 0 0 .727-.727V20.227a.727.727 0 0 0-.727-.727h-3.547a.727.727 0 0 0-.727.727v14.547c0 .401.325.726.727.726z"
+            opacity=".07"/>
+    <radialGradient cx="24" cy="16" gradientTransform="matrix(.7808 0 0 .7066 5.26 4.096)"
+                    gradientUnits="userSpaceOnUse" id="b"
+                    r="5.108">
+        <stop offset=".516"/>
+        <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <ellipse cx="24" cy="15.402" fill="url(#b)" opacity=".15" rx="3.988" ry="3.609"/>
+    <path d="M24 17.732c1.7 0 2.65-1.068 2.65-2.388C26.65 14.024 25.647 13 24 13s-2.65 1.024-2.65 2.344c0 1.32.95 2.388 2.65 2.388zM22 20h4v15h-4z"
+          fill="#fff"/>
+</svg>
