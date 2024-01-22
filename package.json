@@ -4,9 +4,9 @@
   "description": "Faces access control to digiplace",
   "main": "index.js",
   "scripts": {
-    "server": "http-server ./src/ --port 8089"
+    "server": "http-server ./src/ --port 8089 -a 192.168.30.49"
   },
-  "author": "",
+  "author": "Cristiano Morgante",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.0"
